@@ -11,7 +11,7 @@ const server = app.listen(3000, () => {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://appointmentbookingweb.vercel.app/",
+    origin: "https://appointmentbookingweb.vercel.app",
   },
 });
 
